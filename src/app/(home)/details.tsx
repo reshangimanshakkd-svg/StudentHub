@@ -8,9 +8,7 @@ export default function DetailsScreen() {
     <View style={styles.container}>
       <Text style={styles.title}>Digital ID Card</Text>
       <Image
-        source={
-          "E:\\University Courses\\3rd Year\\Sem 02\\COST 32152 - Mobile Application Development\\Lab\\Lab 03\\StudentHub\\StudentHub\\assets\\images\\user.png"
-        }
+        source={require("../../../assets/images/user.png")}
         style={styles.image}
       />
       <Text style={styles.text}>Name: K.K.D.R. Gimansha</Text>
@@ -23,6 +21,6 @@ export default function DetailsScreen() {
 const styles = StyleSheet.create({
   container: { flex: 1, padding: 20, alignItems: "center" },
   title: { fontSize: 22, fontWeight: "bold", marginBottom: 100, marginTop: 40 },
-  text: { fontSize: 18, marginBottom: 10 },
+  text: { fontSize: 17, marginBottom: 10, textAlign: "center" },
   image: { width: 200, height: 200, resizeMode: "contain", marginBottom: 20 },
 });

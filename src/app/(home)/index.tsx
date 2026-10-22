@@ -1,5 +1,5 @@
-import { View, Text, ScrollView, Pressable, StyleSheet } from "react-native";
 import { router } from "expo-router";
+import { Pressable, ScrollView, StyleSheet, Text } from "react-native";
 
 export default function HomeScreen() {
   return (
